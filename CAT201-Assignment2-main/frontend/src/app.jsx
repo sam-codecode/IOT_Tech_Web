@@ -1,7 +1,7 @@
 import Home from "./pages/home";
 import About from "./pages/about";
-import Services from "./pages/Services"; // Ensure file name matches exactly (capital S?)
-import Solutions from "./pages/solutions"; // NEW FILE we will create
+import Services from "./pages/Services"; 
+import Solutions from "./pages/solutions"; 
 import Team from "./pages/team";
 import "./styles/main.css";
 
@@ -11,9 +11,9 @@ function App() {
             {/* NAVIGATION */}
             <nav className="navbar">
                 <div className="company-brand">
-                    {/* Mockup Logo - Replace src with your file later */}
+                    {}
                     <img src="/assets/images/logo.png" alt="" className="logo-mockup" />
-                    <span className="brand-text">CSNode</span>
+                    <span className="brand-text">CodeFusion</span>
                 </div>
                 <ul className="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -34,7 +34,7 @@ function App() {
             </main>
 
             <footer className="footer">
-                <p>&copy; 2025 CSNode | Built by Computer Science Students @ USM</p>
+                <p>&copy; 2025 CodeFusion | Powered by CS @ USM</p>
             </footer>
         </div>
     );
