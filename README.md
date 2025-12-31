@@ -1,6 +1,6 @@
-# CSNode – IoT Solutions Platform
+# CodeFusion – IoT Solutions Platform
 
-CSNode is a student-driven IoT solutions platform developed as part of the CAT201 coursework at Universiti Sains Malaysia (USM).  
+CodeFusion is a student-driven IoT solutions platform developed as part of the CAT201 coursework at Universiti Sains Malaysia (USM).  
 The project focuses on applying Computer Science fundamentals to design practical, reliable, and real-world IoT systems.
 
 ---
@@ -61,6 +61,6 @@ This project was developed for CAT201 – Integrated Software Development Worksh
 and focuses on applying theoretical knowledge to real-world system design.
 ---
 👨‍💻 Author
-Poshentiran
-Samuel Raj
-Salman Ariffin
+Poshentiran   
+Samuel Raj   
+Salman Ariffin   
