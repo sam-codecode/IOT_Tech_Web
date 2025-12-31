@@ -51,7 +51,7 @@ const Team = () => {
             <div style={{ marginTop: '80px', textAlign: 'center' }}>
                 <h3 className="section-title">Contact Us</h3>
                 <div className="glass-card" style={{ display: 'inline-block', textAlign: 'left', padding: '30px' }}>
-                    <p style={{ marginBottom: '10px' }}><strong>Email:</strong> csnode.team@gmail.com</p>
+                    <p style={{ marginBottom: '10px' }}><strong>Email:</strong> codefusion.team@gmail.com</p>
                     <p style={{ marginBottom: '10px' }}><strong>Location:</strong> Universiti Sains Malaysia (USM)</p>
                     <p style={{ color: '#aaa', marginTop: '15px' }}>
                         We welcome academic collaborations and project partnerships.
