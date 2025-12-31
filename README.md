@@ -45,6 +45,7 @@ Intelligent automation that triggers actions based on sensor conditions to impro
 
 ### 🛡️ Maintenance & Support  
 Continuous monitoring, updates, and security maintenance to ensure long-term system reliability.
+
 ---
 
 ## 🧰 Technologies Used
@@ -59,6 +60,7 @@ Continuous monitoring, updates, and security maintenance to ensure long-term sys
 
 This project was developed for CAT201 – Integrated Software Development Workshop
 and focuses on applying theoretical knowledge to real-world system design.
+
 ---
 ## 👨‍💻 Author   
 Poshentiran   
