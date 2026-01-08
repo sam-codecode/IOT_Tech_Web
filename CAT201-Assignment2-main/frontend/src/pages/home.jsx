@@ -4,13 +4,16 @@ const Home = () => {
     return (
         <>
             {/* ====================
-          SECTION 1: HERO
-      ==================== */}
+                SECTION 1: HERO
+            ==================== */}
             <div className="hero-container">
 
                 {/* --- VIDEO AREA START --- */}
                 <video autoPlay loop muted playsInline className="video-bg">
-                    <source src="/assets/videos/iot.mp4" type="video/mp4" />
+                    <source
+                        src={`${process.env.PUBLIC_URL}/assets/videos/iot.mp4`}
+                        type="video/mp4"
+                    />
                 </video>
                 {/* --- VIDEO AREA END --- */}
 
@@ -19,7 +22,7 @@ const Home = () => {
                     {/* === LOGO HOLDER === */}
                     <div className="hero-logo-circle" style={{ overflow: 'hidden' }}>
                         <img
-                            src="/assets/images/jomjom.png"
+                            src={`${process.env.PUBLIC_URL}/assets/images/jomjom.png`}
                             alt="CSNode Logo"
                             style={{
                                 width: '100%',
@@ -27,7 +30,6 @@ const Home = () => {
                                 objectFit: 'cover',
                                 borderRadius: '50%',
                                 display: 'block',
-                               
                                 transform: 'scale(2)'
                             }}
                         />
@@ -35,12 +37,12 @@ const Home = () => {
 
                     {/* === BADGE === */}
                     <span className="hero-badge">
-            CAT201 • EST 2025
-          </span>
+                        CAT201 • EST 2025
+                    </span>
 
                     <h1 className="hero-title">
                         THE FUTURE OF <br />
-                        <span style={{color: '#00f3ff'}}>CONNECTED</span> INTELLIGENCE
+                        <span style={{ color: '#00f3ff' }}>CONNECTED</span> INTELLIGENCE
                     </h1>
 
                     <p className="hero-subtitle">
@@ -57,15 +59,17 @@ const Home = () => {
             </div>
 
             {/* ====================
-          SECTION 2: VISION & MISSION
-      ==================== */}
+                SECTION 2: VISION & MISSION
+            ==================== */}
             <section className="vm-section">
                 <div className="vm-container">
 
                     {/* VISUAL DIVIDER */}
                     <div className="section-header">
                         <span className="section-tag">CODEFUSION_MANIFESTO</span>
-                        <h2 className="vm-main-title">CORE <span style={{color: '#bc13fe'}}>PROTOCOL</span></h2>
+                        <h2 className="vm-main-title">
+                            CORE <span style={{ color: '#bc13fe' }}>PROTOCOL</span>
+                        </h2>
                     </div>
 
                     <div className="vm-grid">
@@ -89,24 +93,24 @@ const Home = () => {
 
                         {/* --- MISSION CARD --- */}
                         <div className="vm-card mission-card">
-                            <div className="card-icon-glow" style={{color: '#bc13fe'}}>🎯</div>
+                            <div className="card-icon-glow" style={{ color: '#bc13fe' }}>🎯</div>
                             <h3>MISSION</h3>
                             <ul className="mission-list">
                                 <li>
                                     <span className="cmd-arrow">{'>'}</span>
-                                    <strong>Design & Develop</strong> Dependable IoT systems grounded in strong computer science fundamentals.
+                                    <strong>Design & Develop</strong> dependable IoT systems grounded in strong computer science fundamentals.
                                 </li>
                                 <li>
                                     <span className="cmd-arrow">{'>'}</span>
-                                    <strong>Integrate</strong>  Hardware, software and data into efficient, connected solutions.
+                                    <strong>Integrate</strong> hardware, software, and data into efficient connected solutions.
                                 </li>
                                 <li>
                                     <span className="cmd-arrow">{'>'}</span>
-                                    <strong>Apply</strong> Real-time data automation to improve system intelligence and decision-making.
+                                    <strong>Apply</strong> real-time data automation to improve system intelligence and decision-making.
                                 </li>
                                 <li>
                                     <span className="cmd-arrow">{'>'}</span>
-                                    <strong>Bridge</strong> Academic learning with practical, real-world technology applications.
+                                    <strong>Bridge</strong> academic learning with practical, real-world technology applications.
                                 </li>
                             </ul>
                         </div>

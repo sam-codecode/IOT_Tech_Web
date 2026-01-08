@@ -11,10 +11,9 @@ function App() {
             {/* NAVIGATION */}
             <nav className="navbar">
                 <div className="company-brand">
-                    {}
-                    <img src="/assets/images/logo.png" alt="" className="logo-mockup" />
                     <span className="brand-text">CodeFusion</span>
                 </div>
+
                 <ul className="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -29,7 +28,7 @@ function App() {
                 <section id="home"><Home /></section>
                 <section id="about"><About /></section>
                 <section id="services"><Services /></section>
-                <section id="solutions"><Solutions /></section> {/* New Section */}
+                <section id="solutions"><Solutions /></section>
                 <section id="team"><Team /></section>
             </main>
 

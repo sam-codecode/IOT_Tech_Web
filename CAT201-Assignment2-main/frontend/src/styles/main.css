@@ -554,7 +554,7 @@ section {
     transform: scale(1.2);
 }
 
-.card-content { width: 100%; white-space: nowrap; }
+.card-content { width: 100%;  }
 
 .icon-box {
     font-size: 2.5rem;

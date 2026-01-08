@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Services = () => {
-    // 1. Service Data
+    // Service Data
     const services = [
         {
             id: "01",
@@ -35,28 +35,33 @@ const Services = () => {
         }
     ];
 
-    // 2. State to track which card is expanded (Default to first one)
+    // Track active accordion card
     const [activeId, setActiveId] = useState("01");
 
     return (
-        <div className="services-wrapper">
+        <section className="services-wrapper" id="services">
+
+            {/* Section Header */}
             <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-                <h2 className="section-title">OUR <span className="highlight">SERVICES</span></h2>
-                <p style={{ color: '#888' }}>Hover over a card to explore our capabilities.</p>
+                <h2 className="section-title">
+                    OUR <span className="highlight">SERVICES</span>
+                </h2>
+                <p style={{ color: '#888' }}>
+                    Hover over a card to explore our capabilities.
+                </p>
             </div>
 
-            {/* 3. The Elastic Accordion Container */}
+            {/* Accordion Cards */}
             <div className="accordion-container">
-                {services.map((service) => (
+                {services.map(service => (
                     <div
                         key={service.id}
                         className={`accordion-card ${activeId === service.id ? 'active' : ''}`}
                         onMouseEnter={() => setActiveId(service.id)}
                     >
-                        {/* Background Number (Visual Effect) */}
+                        {/* Background Index */}
                         <span className="bg-number">{service.id}</span>
 
-                        {/* Content Wrapper */}
                         <div className="card-content">
                             <div className="icon-box">
                                 {service.icon}
@@ -66,16 +71,15 @@ const Services = () => {
                                 {service.title}
                             </h3>
 
-                            {/* Only visible when active */}
                             <div className={`service-desc ${activeId === service.id ? 'show' : ''}`}>
-                                <p style={{ marginBottom: 0 }}>{service.desc}</p>
-                                {/* Button Removed Here */}
+                                <p>{service.desc}</p>
                             </div>
                         </div>
                     </div>
                 ))}
             </div>
-        </div>
+
+        </section>
     );
 };
 
