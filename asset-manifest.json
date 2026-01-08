@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IOT_Tech_Web/static/css/main.f85657a3.css",
+    "main.js": "/IOT_Tech_Web/static/js/main.219823ca.js",
+    "index.html": "/IOT_Tech_Web/index.html",
+    "main.f85657a3.css.map": "/IOT_Tech_Web/static/css/main.f85657a3.css.map",
+    "main.219823ca.js.map": "/IOT_Tech_Web/static/js/main.219823ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f85657a3.css",
+    "static/js/main.219823ca.js"
+  ]
+}
